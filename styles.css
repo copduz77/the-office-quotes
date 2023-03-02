@@ -1,14 +1,16 @@
 body {
     text-align: center;
     background-color: #ACC09D;
-    overflow: hidden;
+    overflow-x: hidden;
+    
+    display: block;
 }
 
 @media handheld,
 only screen and (max-width: 719px) {
 
     .title {
-        max-width: 350px;
+        max-width: 340px;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -16,13 +18,15 @@ only screen and (max-width: 719px) {
     }
 
     .title h1 {
-        font-size: 1.9rem;
+        font-size: 2rem;
         margin: 0;
         padding: 0;
     }
 
+    
+
     .title h3 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
 
     }
 
@@ -191,8 +195,8 @@ h3 {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: 50px;
+    
     width: 100%;
 }
 
@@ -202,4 +206,6 @@ h3 {
     font-family: 'American Typewriter Regular', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    padding-top: 130px;
+    
 }
