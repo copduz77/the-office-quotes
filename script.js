@@ -27,55 +27,55 @@ function generateNumber() {
 function imgSwitch(randomAuthor) {
     switch (randomAuthor) {
         case 'Michael Scott':
-            document.getElementById("char-img").src = "images/Michael.PNG"
+            document.getElementById("char-img").src = "Michael.PNG"
             break;
         case 'Dwight Schrute':
-            document.getElementById("char-img").src = "images/Dwight-the-office.jpg"
+            document.getElementById("char-img").src = "Dwight-the-office.jpg"
             break;
         case 'Kelly Kapoor':
-            document.getElementById("char-img").src = "images/Kelly.PNG"
+            document.getElementById("char-img").src = "Kelly.PNG"
             break;
         case 'Pam Beasley':
-            document.getElementById("char-img").src = "images/Pam.jpg"
+            document.getElementById("char-img").src = "Pam.jpg"
             break;
         case 'Andy Bernard':
-            document.getElementById("char-img").src = "images/Andy.PNG"
+            document.getElementById("char-img").src = "Andy.PNG"
             break;
         case 'Jim Halpert':
-            document.getElementById("char-img").src = "images/Jim.PNG"
+            document.getElementById("char-img").src = "Jim.PNG"
             break;
         case 'Angela Martin':
-            document.getElementById("char-img").src = "images/Angela.PNG"
+            document.getElementById("char-img").src = "Angela.PNG"
             break;
         case 'Ryan Howard':
-            document.getElementById("char-img").src = "images/Ryan.PNG"
+            document.getElementById("char-img").src = "Ryan.PNG"
             break;
 
         case 'Oscar Martinez':
-            document.getElementById("char-img").src = "images/Oscar.jpeg"
+            document.getElementById("char-img").src = "Oscar.jpeg"
             break;
         case 'Erin Hannon':
-            document.getElementById("char-img").src = "images/Erin.PNG"
+            document.getElementById("char-img").src = "Erin.PNG"
             break;
 
         case 'Gabe Lewis':
-            document.getElementById("char-img").src = "images/Gabe.PNG"
+            document.getElementById("char-img").src = "Gabe.PNG"
             break;
         case 'Kevin Malone':
-            document.getElementById("char-img").src = "images/Kevin.PNG"
+            document.getElementById("char-img").src = "Kevin.PNG"
             break;
         case 'Phyllis Lapin':
-            document.getElementById("char-img").src = "images/Phyllis.PNG"
+            document.getElementById("char-img").src = "Phyllis.PNG"
             break;
 
         case 'Stanley Hudson':
-            document.getElementById("char-img").src = "images/Stanley.PNG"
+            document.getElementById("char-img").src = "Stanley.PNG"
             break;
         case 'Nellie Bertram':
-            document.getElementById("char-img").src = "images/Nellie.PNG"
+            document.getElementById("char-img").src = "Nellie.PNG"
             break;
         default:
-            document.getElementById("char-img").src = "images/Michael.PNG"
+            document.getElementById("char-img").src = "Michael.PNG"
             break;
     }
 }
