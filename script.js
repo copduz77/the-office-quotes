@@ -11,7 +11,7 @@ button.addEventListener("click", e => {
 })
 
 function generateNumber() {
-    const randomNumber = Math.floor(Math.random() * 39) + 1;
+    const randomNumber = Math.floor(Math.random() * 38) + 1;
     console.log(randomNumber);
     const randomQuote = arrayOfQuotes[randomNumber].quote;
     const randomAuthor = arrayOfQuotes[randomNumber].author;
