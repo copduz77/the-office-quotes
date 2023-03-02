@@ -8,7 +8,7 @@ body {
 only screen and (max-width: 719px) {
 
     .title {
-        max-width: 400px;
+        max-width: 350px;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -16,13 +16,13 @@ only screen and (max-width: 719px) {
     }
 
     .title h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin: 0;
         padding: 0;
     }
 
     .title h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
 
     }
 
@@ -30,7 +30,7 @@ only screen and (max-width: 719px) {
         display: flex;
 
         flex-wrap: wrap;
-        max-width: 400px;
+        max-width: 380px;
 
     }
 
@@ -47,7 +47,7 @@ only screen and (max-width: 719px) {
         display: flex;
 
         flex-wrap: wrap;
-        max-width: 400px;
+        max-width: 380px;
     }
 }
 
