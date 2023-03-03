@@ -35,7 +35,7 @@ function imgSwitch(randomAuthor) {
         case 'Kelly Kapoor':
             document.getElementById("char-img").src = "Kelly.PNG"
             break;
-        case 'Pam Beasley':
+        case 'Pam Beesly':
             document.getElementById("char-img").src = "Pam.jpg"
             break;
         case 'Andy Bernard':
