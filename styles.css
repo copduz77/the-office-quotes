@@ -67,6 +67,9 @@ only screen and (max-width: 719px) {
         font-size: 0.90rem !important;
         
     }
+    .copyright {
+        font-size: 0.85rem !important;  
+    }
 }
 
 @media (min-width: 719px) and (max-width: 1050px) {
